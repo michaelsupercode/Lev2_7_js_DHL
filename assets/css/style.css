@@ -1,5 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
 #myform {
-    margin: 4%;
+    margin: 3%;
 }
 
 #mylist {
@@ -16,12 +23,12 @@
     color: var(--dhl-red);
     background-color: var(--dhl-yellow);
     height: 14em;
-    width: 33em;
+    width: 43em;
 }
 
 .boxMasse {
     margin: 5px;
-    width: 200px;
+    width: 60vw;
     border: 2px solid var(--dhl-red);
     ;
     border-radius: 5px;
@@ -54,4 +61,11 @@
     outline: 0;
     border-color: var(--dhl-red);
     ;
+}
+
+.sig {
+    display: flex;
+    justify-content: center;
+    margin-top: 35vh;
+    margin-right: 5vw;
 }
